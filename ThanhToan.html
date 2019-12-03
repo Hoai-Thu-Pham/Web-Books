@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thanh Toán - Website bán sách trực tuyến hàng đầu Việt Nam</title>
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/Boostrap/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script rel="stylesheet" href="css/Boostrap/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <section class="thanh-toan">
+        <div class="container-fluid">
+            <form action="#" class="needs-validation" novalidate>
+                <div class="row">
+
+                    <div class="col-md-4 thanh-toan-1">
+                        <h2><a href="TrangChu.html">Bookstore</a></h2>
+                        <span>Thông tin mua hàng</span>
+                        <span><i class="fa fa-user-circle-o"></i><a href="DangNhap.html">Đăng nhập</a></span>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="uname" placeholder="Email" name="uname" required>
+                            <div class="valid-feedback">Dữ liệu hợp lệ.</div>
+                            <div class="invalid-feedback">vui lòng nhập đúng định dạng.</div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="uname" placeholder="Họ và tên" name="uname" required>
+                            <div class="valid-feedback">Dữ liệu hợp lệ.</div>
+                            <div class="invalid-feedback">vui lòng nhập đúng định dạng.</div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="uname" placeholder="số điện thoại" name="uname" required>
+                            <div class="valid-feedback">Dữ liệu hợp lệ.</div>
+                            <div class="invalid-feedback">vui lòng nhập đúng định dạng.</div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="uname" placeholder="địa chỉ" name="uname" required>
+                            <div class="valid-feedback">Dữ liệu hợp lệ.</div>
+                            <div class="invalid-feedback">vui lòng nhập email đúng định dạng.</div>
+                        </div>
+                        <div class="form-group">
+                            <select name="cars" class="form-control" id="uname" placeholder="tỉnh thành" name="uname" required>
+                                <option value="volvo">----Chọn tỉnh thành---</option>
+                                <option value="saab">Hà nội</option>
+                                <option value="fiat">Hưng yên</option>
+                                <option value="audi">TP. HCM</option>
+                            </select>
+                            <div class="valid-feedback">Dữ liệu hợp lệ.</div>
+                            <div class="invalid-feedback">vui lòng nhập đúng định dạng.</div>
+                        </div>
+                        <div class="form-group">
+                            <select name="cars" class="form-control" id="uname" placeholder="tỉnh thành" name="uname" required>
+                                <option value="volvo">----Chọn quận huyện---</option>
+                                <option value="saab">Thanh xuân</option>
+                                <option value="fiat">hoàng mai</option>
+                                <option value="audi">Cầu giấy</option>
+                            </select>
+                            <div class="valid-feedback">Dữ liệu hợp lệ.</div>
+                            <div class="invalid-feedback">vui lòng nhập đúng định dạng.</div>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" name="vehicle1" value="Bike"> chọn một địa điểm giao hàng khác<br>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" id="ghichu" placeholder="Ghi chú"></textarea>
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-4 thanh-toan-2">
+                        <h2>Hình thức thanh toán</h2>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                  <input type="checkbox" class="form-check-input" value="" disabled>Cod
+                                </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                  <input type="checkbox" class="form-check-input" value="">ATM
+                                </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                  <input type="checkbox" class="form-check-input" value="" > ví AirPay
+                                </label>
+                        </div>
+                    </div>
+                    <div class="col-md-4 thanh-toan-3">
+                        <h2>Đơn hàng (1 sản phẩm) </h2>
+                        <hr>
+                        <div class="thanh-toan-sp">
+                            <span>số lượng: 1</span>
+                            <span>Đi qua hoa cúc</span>
+                            <span>56.000đ</span>
+                        </div>
+
+                        <div class="thanh-toan-input form-group">
+                            <hr>
+                            <input type="text" placeholder="Nhập mã giảm giá" class="form-control ap-dung">
+                            <button type="submit" class="btn btn-primary">Áp dụng</button>
+                        </div>
+
+                        <hr>
+                        <div class="thanh-toan-span">
+                            <span>Tạm tính</span>
+                            <span>56.000d</span><br>
+                        </div>
+                        <div class="thanh-toan-span">
+                            <span>Phí vận chuyển</span>
+                            <span>30.000đ</span>
+                        </div>
+
+
+                        <div class="thanh-toan-span" style="margin-top: 45px;">
+                            <hr>
+                            <span>Tổng cộng</span>
+                            <span>86.000đ</span>
+                        </div>
+                        <br>
+                        <span><i class="fa fa-angle-left nut-i"></i><a href="GioHang.html">Quay về giỏ hàng</a></span>
+                        <button type="submit" class="btn btn-primary" style="float: right; margin-right: 20px;">ĐẶT HÀNG</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- js -->
+    <script src="css/Boostrap/jquery-3.4.1.min.js"></script>
+    <script>
+        // Disable form submissions if there are invalid fields
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                // Get the forms we want to add validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+
+    </div>
+</body>
+
+</html>
